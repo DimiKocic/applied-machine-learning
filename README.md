@@ -21,28 +21,45 @@ AML/
 ├── _main.py # Central launcher
 │
 ├── Clustering/
+
 │ ├── K_Means.py
+
 │ ├── DBSCAN.py
+
 │ ├── kddcup.data_10_percent_corrected (download separately)
+
 │ ├── x_tsne.npy
+
 │ └── x_tsne_kmeans.npy
 │
 ├── Regression/
+
 │ ├── Regression.py
+
 │ └── melb_data.csv (download separately)
 │
 ├── NeuralNetwork/
+
 │ ├── NeuralNetwork.py
+
 │ ├── IMDB-F_CSV.csv (download separately)
+
 │ ├── IMDB-F.arff (download separately)
+
 │ ├── multi_output_mlp_model.pkl (generated locally)
+
 │ └── multi_output_mlp_for_shap2.pkl (generated locally)
 │
 └── RandomForest/
+
 ├── RandomClassifier.py
+
 ├── IMDB-F_CSV.csv (download separately)
+
 ├── IMDB-F.arff (download separately)
+
 ├── clf.pkl (generated locally)
+
 └── clf1.pkl (generated locally)
 
 
@@ -142,9 +159,9 @@ pip install numpy pandas scikit-learn matplotlib shap joblib scipy
 How to Run
 
 From the root directory:
-
+```bash
 python _main.py
-
+```
 
 You will be prompted to select:
 
